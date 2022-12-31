@@ -18,7 +18,8 @@ export const styledInputElement  = (el: any ) => {
 export const styledLabel  = (el: any ) => {
    const NewElement = styled(el)`
         color: ${props => props.theme.bg_colors.B05};
-        font-size: 12px;
+        font-size: 11px;
+        font-weight: 100;
     `;
     return NewElement
 }

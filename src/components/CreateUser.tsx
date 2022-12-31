@@ -44,6 +44,8 @@ const CreateNewUser: React.FC<CreateNewUserProps> = (props: CreateNewUserProps) 
         value={user.name!}
         onChange={onChange}
       />
+      <br/>
+      <br/>
       <DropDown
         label={'Status:'}
         name="workStatus"
@@ -51,6 +53,8 @@ const CreateNewUser: React.FC<CreateNewUserProps> = (props: CreateNewUserProps) 
         onChange={onChange}
         options={[...Object.keys(WorkStatus)]}
       />
+      <br/>
+      <br/>
       <br/>
       <Button color="primary" type="submit" disabled={!user?.name || !user?.workStatus} value={'Create'}/>
       <Button color="white" value={'Cancel'} onClick={(e: React.MouseEvent) => props.closeModal()}/>
