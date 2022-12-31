@@ -20,6 +20,7 @@ export const styledLabel  = (el: any ) => {
         color: ${props => props.theme.bg_colors.B05};
         font-size: 11px;
         font-weight: 100;
+        margin: 0;
     `;
     return NewElement
 }

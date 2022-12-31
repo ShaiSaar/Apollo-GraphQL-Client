@@ -52,6 +52,7 @@ const Menu = styled(Dropdown.Menu)`
 
 const Toggle = styled(Dropdown.Toggle)`
   padding-left: 0;
+  padding-right: 0;
   width: 100%;
   text-align: inherit;
   
@@ -59,7 +60,7 @@ const Toggle = styled(Dropdown.Toggle)`
     position: absolute;
     top: 75%;
     transform: translate(0, -75%);
-    right: 14px;
+    right: 1px;
     color: ${props => props.theme.bg_colors.B04};
   }
 
